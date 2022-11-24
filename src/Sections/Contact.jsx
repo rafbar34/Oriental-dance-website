@@ -12,7 +12,7 @@ export const Contact = ({ myRef }) => {
                         <div className='flex flex-col text-white h-full items-center'>
                             <div className='text-yellow-200 mt-24 font-serif font bold text-6xl'>Kontakt</div>
                             <div className='flex relative'>
-                                <div className='w-3/4 -top-20 absolute'><img className='w-full' src={dancer} /></div>
+                                <div className='w-3/4 -bottom-64 -z-10 absolute'><img className='w-full' src={dancer} /></div>
                                 <div className='flex z-10  flex-col  mt-20 item gap-y-10 text-3xl'>
                                     <h4 className='text-3xl'>Jeżeli zainteresowała Państwa nasza oferta to zapraszamy do kontaktu</h4>
                                     <div>Tel: <span className='text-yellow-200 ml-5'>505-533-187</span></div>

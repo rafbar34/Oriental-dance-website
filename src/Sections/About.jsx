@@ -14,7 +14,7 @@ export const About = ({myRef}) => {
                         <h2 className='text-yellow-200 font-serif font-bold text-6xl pr-5'>O nas</h2>
                         <Slide right>
                         <div className='w-3/4 h-3/4 rounded-2xl flex flex-col items-center justify-center'>
-                            <p className='text-2xl leading-9 tracking-wide w-1/2 text-center text-white'>Jesteśmy doświadczoną grupą taneczną z długoletnim stażem scenicznym.
+                            <p className='text-xl leading-9 tracking-wide w-3/4 text-center text-white'>Jesteśmy doświadczoną grupą taneczną z długoletnim stażem scenicznym.
                                 Wszystkie tańczymy od najmłodszych lat, każda z nas ma na swoim koncie wiele tanecznych osiągnięć min. jesteśmy brązowymi medalistkami mistrzostw Belly Dance Świata International Dance Federation, mistrzyniami i  wice mistrzyniami Europy Wschodniej zarówno w kategoriach solowych jak i grupowych.
                                 Nasza grupa swoim Orientalnym Show uświetniła wiele pokazów komercyjnych min; wesela, urodziny, imprezy firmowe i okolicznościowe.
                             </p>

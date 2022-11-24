@@ -20,7 +20,7 @@ export const Gallery = ({ myRef }) => {
             <div ref={myRef} className='bg-[url("./assets/img1.jpg")] bg-[center_top_-10rem] pb-5 bg-fixed w-full bg-cover  min-h-screen h-full flex flex-col'>
                 <p className='text-white text-center py-20 w-full mt-5 font-serif font-bold  text-6xl'>Galeria</p>
                 <div className='flex w-full h-full justify-center '>
-                    <div className='w-7/8 h-full rounded-2xl grid grid-rows-3 grid-cols-4 gap-y-8 gap-x-3 '>
+                    <div className='w-[85%] h-full rounded-2xl grid grid-rows-3 grid-cols-4 gap-y-8 gap-x-3 '>
                         {images.map((image) => (
                             <>
                                 {open === image ? <div onClick={() => setOpen('none')} className='absolute z-20 text-yellow-800 right-[29%] mr-5 text-2xl'>X</div> : ''}
