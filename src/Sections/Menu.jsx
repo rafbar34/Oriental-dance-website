@@ -1,5 +1,4 @@
 import React from 'react';
-import dancer3 from "../assets/dancer3.png"
 import jp2 from '../assets/logo1.png'
 
 export const Menu = ({myRefHome, myRefAboutsUs, myRefGallery, myRefOffer, myRefVideo, myRefContact}) => {
