@@ -3,7 +3,6 @@ import jp2 from '../assets/logo1.png'
 
 export const Menu = ({ myRefHome, myRefAboutsUs, myRefGallery, myRefOffer, myRefVideo, myRefContact }) => {
     const executeScroll = (myRef) => {
-        console.log(myRef)
         myRef.current.scrollIntoView({ behavior: 'smooth', block: "start" });
     }
     const menuValues = [{ title: 'Strona Główna', ref: myRefHome }, { title: 'O nas', ref: myRefAboutsUs }, { title: 'Galeria', ref: myRefGallery }, { title: 'Oferta', ref: myRefOffer }, { title: 'Pokazy', ref: myRefVideo }, { title: 'Kontakt', ref: myRefContact }]
