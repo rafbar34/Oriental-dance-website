@@ -11,13 +11,13 @@ export const HomePage = ({ myRef }) => {
                     <div className='flex  justify-around items-center mt-20  flex-col h-full'>
                         <div className='w-full flex justify-center'>
                             <Fade top>
-                                <p className='absolute z-10 top-36  	text-transform: uppercase font-serif font bold text-2xl sm:text-5xl text-white'>Wyjątkowe tanczene show</p>
+                                <p className='absolute z-10 top-36  	text-transform: uppercase font-serif font bold text-2xl sm:text-5xl text-white text-center'>Wyjątkowe tanczene show</p>
                             </Fade>
                         </div>
                         <div className='sm:w-[47%] mt-36 sm:mt-16'><img src={img5} /></div>
                         <div className='flex justify-center w-full'>
                             <Fade top>
-                                <div className='absolute z-10  bg-opacity-20 sm:bg-opacity-0 bg-red-400 sm:bg-none sm:-bottom-8'>
+                                <div className='absolute z-10  bg-opacity-20 sm:bg-opacity-0 bg-red-400 sm:bg-none bottom-5 sm:-bottom-8'>
                                     <img src={logo} className='z-10  sm:ml-5 ml-9 ' width='80%' alt='oriental show girls pokazy taneczne' />
                                 </div>
                             </Fade>

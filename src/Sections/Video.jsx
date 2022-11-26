@@ -1,6 +1,6 @@
 import React from 'react';
 import { gql } from 'graphql-request';
-import dancer2 from '../assets/img3.jpg'
+import ReactPlayer from 'react-player'
 
 export const Video = ({ myRef }) => {
     return (
@@ -9,13 +9,9 @@ export const Video = ({ myRef }) => {
                 <p className='text-white text-center py-20 w-full font-serif font-bold mt-5 text-6xl'>Pokazy</p>
                 <div className='flex  w-full  h-full'>
                     <div className='flex w-full justify-center'>
-                        <div className='w-3/4 h-3/4 rounded-2xl grid grid-rows-2 grid-cols-2 sm:grid-cols-4 gap-x-5 '>
-                            <video width="320" height="240" controls>Your browser does not support the video tag.</video>
-                            <video width="320" height="240" controls>Your browser does not support the video tag.</video>
-                            <video width="320" height="240" controls>Your browser does not support the video tag.</video>
-                            <video width="320" height="240" controls>Your browser does not support the video tag.</video>
-                            <video width="320" height="240" controls>Your browser does not support the video tag.</video>
-                        </div>
+
+                        <ReactPlayer url='https://www.youtube.com/watch?v=XT8BV2HjA4k' />
+
 
                     </div>
                 </div>
