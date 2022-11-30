@@ -14,7 +14,7 @@ export const Gallery = ({ myRef, imagesUrl }) => {
                         (
                             <>
                                 {open === image ? <div onClick={() => setOpen('none')} className='absolute z-20 text-yellow-800 right-[10%] mt-2 duration-500 sm:right-[29%] mr-5 text-2xl'>X</div> : ''}
-                                
+
                                 <div onClick={() => setOpen(image)} className={open === image ? ' absolute z-10 mr-10 sm:mr-0 sm:ml-60 h-full sm:w-1/2  duration-500' : ''}>
                                     <Flip left cascade>
                                         <img className={open === image ? 'sm:w-7/8 sm:h-7/8' : 'sm:h-96 sm:w-96 h-44 w-44'} src={image.image.url} />
